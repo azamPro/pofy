@@ -1,3 +1,68 @@
-.sign-up .container .box .login-form .content {
-    text-align: center !important;
+.background{
+    background: linear-gradient(to top right, #2EC6F2, #34F5C5);
+    height: 100vh;
+    display: grid;
+    place-items: center;
+}
+/* style the box */
+.background .box{
+    background-color: #fff;
+    padding: 20px;
+    margin: 30px;
+    min-height: 250px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    border-radius: 12px;
+    gap: 5px;
+    -webkit-box-shadow: 3px 1px 15px 0.5px #147d6b;
+-moz-box-shadow: 3px 1px 15px 0.5px #147d6b;
+box-shadow: 3px 1px 15px 0.5px #147d6b;
+}
+
+.background .box .header{
+    text-align: center;
+}
+.background .box .header svg{
+    background: linear-gradient(to top right, #2EC6F2, #34F5C5);
+}
+.background .box .second{
+    margin-top: 20px;
+    text-align: center;
+}
+.background .box .second p{
+    margin: 10px 0;
+}
+.background .box .third{
+    width: 100%;
+}
+/* style for input email */
+.background .box .third input{ 
+    height: 35px;
+    width: 100%;
+    padding: 12px 10px;
+    border-radius: 0.6375rem;
+    border: 1.5px solid #5c5a5a;
+    background: #EEEEEE;
+}
+
+/* style the buttom */
+.background .box .a1{
+    width: 100%;
+    border: none;
+    background: linear-gradient(to top right, #2EC6F2, #34F5C5);
+    border-radius: 10px;
+    padding: 12px;
+    color: #FFF;
+    text-align: center;
+    font-size: 1.25rem;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    -webkit-box-shadow: 1px 3px 12px -4px #000000;
+    -moz-box-shadow: 1px 3px 12px -4px #000000;
+    box-shadow: 1px 3px 12px -4px #000000;
+    cursor: pointer;
+    margin-top: 15px;
 }
