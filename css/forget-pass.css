@@ -9,11 +9,12 @@
     background-color: #fff;
     padding: 20px;
     margin: 30px;
-    min-height: 250px;
+    min-height: 450px;
+    
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: space-around;
+    justify-content: center;
     border-radius: 12px;
     gap: 5px;
     -webkit-box-shadow: 3px 1px 15px 0.5px #147d6b;
@@ -25,7 +26,7 @@ box-shadow: 3px 1px 15px 0.5px #147d6b;
     text-align: center;
 }
 .background .box .header svg{
-    background: linear-gradient(to top right, #2EC6F2, #34F5C5);
+    height: 90px;
 }
 .background .box .second{
     margin-top: 20px;
