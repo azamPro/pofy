@@ -156,6 +156,11 @@ header nav .group .menu li a{
     transform: translate(-50%,47%);
     
 }
+@media (max-width: 769px){
+    .search-box{
+        width: 80%;
+    }
+}
 
 /* title */
 .title{
